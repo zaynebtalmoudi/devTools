@@ -1,0 +1,165 @@
+
+.todo{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+ input{
+    font-family: "Indie Flower", cursive;
+    color: black;
+    font-size: 1.4rem;
+    border: 3.5px solid rgb(255, 255, 255);
+    background-color: rgb(233, 232, 241);
+    border-radius: 50px;
+    height: 4rem;
+    width: 30rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem 3rem;
+    padding-left: 2rem;
+}
+input:focus{
+   border: 3px solid rgb(145, 27, 143); 
+  outline: none;
+box-shadow: 5px 10px 18px #888888;
+  
+}
+.plusIcon{
+    width: 1.8rem;
+    height: 1.8rem;
+    color:#ffff;
+    border-radius: 100%;
+  
+}
+.btn{
+    background-color: rgb(145, 27, 143);
+    border: 3px solid #fff;
+    border-radius: 100%; 
+    width: 3rem;
+    height: 3rem;
+    margin: 1.5rem 3rem 1.5rem 1.5rem;
+}
+
+/* Task Item */
+.item {
+    color: black;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 5rem;
+    width: 30rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.task {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+}
+
+.edittingIcons {
+    /* border: 1px red solid ; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    margin-right: 1rem;
+}
+
+.checkIcon {
+    margin: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 4px
+}
+
+.checked {
+    color: rgb(41, 218, 159);
+}
+
+.notChecked {
+    color: rgb(17, 17, 17);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.taskDone {
+    text-decoration-line: line-through;
+}
+
+
+.edittingIcons button {
+    color: rgb(16, 176, 184);
+    background-color: transparent;
+    border: none;
+
+}
+
+.edittingIcons .delete {
+    color: rgb(26, 206, 216);
+}
+/* -----------Task Item End -------*/
+
+/* --------- Editing ------- */
+
+.edit-form {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-input {
+    color: black;
+    font-size: 1.4rem;
+    border: 3.5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 4rem;
+    width: 30rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem 3rem;
+    padding-left: 2rem;
+}
+
+.edit-input:focus {
+    border: 3px solid rgb(175, 26, 229);
+    outline: none;
+}
+
+.editing {
+    color: rgb(255, 255, 255);
+    width: 1.8rem;
+    height: 1.8rem; 
+    border-radius: 100%;
+}
+.confirmEditing{
+background-color: rgb(41, 218, 159);
+}
+.cancelEditing
+{
+    background-color: #c12798;
+}
+
+.edit-btn {
+    border: 3px solid #fff;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: 1.5rem 3rem 1.5rem 1.5rem;
+}
+/* -------- end Editing --------- */
